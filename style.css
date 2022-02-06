@@ -1,0 +1,405 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+[class*="__container"] {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0.1px;
+}
+
+.home__container {
+  background: url(img/bg/BG-1.jpg) no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(18, 18, 18, 0.7);
+  height: 1137px;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1114px;
+  margin: 77px auto;
+  padding: 17px 0px;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.nav_link {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.link_left {
+  font-family: Nunito;
+  font-size: 14px;
+  color: #ffffff;
+}
+.nav_link a {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+.nav_link.active a {
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+}
+
+.info_contacts {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  max-width: 1440px;
+  background: rgba(39, 39, 39, 0.67);
+}
+
+.info-all {
+  display: flex;
+  align-items: center;
+  left: 3px;
+  justify-content: space-between;
+  padding: 0px 125px 0px 125px;
+}
+
+.info_right {
+  display: flex;
+  gap: 25px;
+}
+.link_right {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  color: #272727;
+}
+.info_link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.membership {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 199px;
+  height: 50px;
+  background: #ffffff;
+  gap: 15px;
+}
+
+.meet-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 195px;
+}
+
+h1 {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 80px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.meet {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 33px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.meet_text {
+  width: 500px;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.btn_team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+  height: 62px;
+  background: #0d90c2;
+  margin-top: 30px;
+}
+.btn_team:hover {
+  background: red;
+}
+
+.btn_team a {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+/*-------------------------*/
+.about-us__container {
+  background: url(img/bg/bg-2.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(18, 18, 18, 0.7);
+  height: 910px;
+}
+.about-us_all {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 962px;
+}
+.community {
+  background: url(img/people/pct-1.jpg) no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(18, 18, 18, 0.4);
+  width: 468.97px;
+  height: 404px;
+  margin: -70px 20px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.community_img {
+  margin-top: 40px;
+}
+.community h3 {
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  margin: 10px 0 18px;
+}
+
+.community h4 {
+  max-width: 336px;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.btn_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+  height: 62px;
+  background: #0d90c2;
+  margin-top: 30px;
+}
+.btn_details:hover {
+  background: red;
+}
+.btn_details a {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.working-space {
+  background: url(img/people/pct-2.jpg) no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(18, 18, 18, 0.4);
+  width: 468.97px;
+  height: 404px;
+  margin: -70px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.working-space_img {
+  margin-top: 40px;
+}
+.working-space h3 {
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  margin: 18px 0 18px;
+}
+
+.working-space h4 {
+  max-width: 336px;
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-us_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 432px;
+  height: 432px;
+}
+
+.about-us_text h3 {
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.line {
+  width: 31px;
+  height: 4px;
+  background: #c4c4c4;
+}
+.about-us_text h4 {
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  margin-top: 25px;
+}
+.about-us_text h4 p {
+  margin-top: 25px;
+  margin-bottom: 46px;
+}
+
+.about-us_text h5 {
+  font-family: Mrs Saint Delafield;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 160%;
+  color: #c7c7c7;
+}
+.about-us_text h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.women {
+  width: 432px;
+  height: 432px;
+  margin-left: 90px;
+}
+/*___________*/
+
+.blogs__container {
+  height: 1009px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.teach {
+  display: flex;
+  justify-content: center;
+  max-width: 1191px;
+  height: 345px;
+  background: #ffffff;
+  margin-top: -56px;
+  padding: 50px 120px;
+}
+.lawyers_teach {
+  font-family: Nunito;
+font-size: 16px;
+line-height: 160%;
+color: #000000;
+max-width: 951px;
+}
+.lawyers_teach p {
+  margin-bottom: 25px;
+}
+.lawyers_teach__list {
+  font-family: Montserrat;
+font-weight: bold;
+font-size: 16px;
+line-height: 160%;
+color: #000000;
+/* margin: 30px 0px; */
+}
+
+.lawyers_teach__all {
+  display: flex;
+  gap: 130px;
+}
+.lawyers_teach__one{
+ width: 50%;
+}
+.lawyers_teach__one > .lawyers_teach__list{
+  padding-left: 20px;
+  position: relative;
+  margin: 30px 0;
+  min-width: 470px;
+}
+.lawyers_teach__one > .lawyers_teach__list:before{
+  content: '✔';
+  position: absolute; top: 0; left: 0;
+  color: #0D90C2;
+}
+
+
+.news {
+  display: flex;
+}
+.kenya {
+  width: 296px;
+  height: 408px;
+  background: #ffffff;
+}
+.louis {
+  width: 296px;
+  height: 408px;
+  background: #ffffff;
+}
+.africa {
+  width: 296px;
+  height: 408px;
+  background: #ffffff;
+}
